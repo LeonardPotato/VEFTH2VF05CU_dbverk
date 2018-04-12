@@ -1,5 +1,6 @@
 from bottle import route, template, run, request, redirect
 import pymysql
+import os
 
 conn = pymysql.connect(host='tsuts.tskoli.is', port=3306, user='2608993339', passwd='mypassword', db='2608993339_vefth_bilar')
 c = conn.cursor()
